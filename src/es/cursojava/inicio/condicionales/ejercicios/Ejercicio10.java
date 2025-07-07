@@ -32,7 +32,7 @@ public class Ejercicio10 {
 			System.out.println("¿Cuánto dinero quieres apostar?");
 			scan = new Scanner(System.in);
 			cantApuesta = scan.nextInt();
-			saldo = saldo - cantApuesta;
+			saldo -= cantApuesta;
 
 			if (cantApuesta > saldo) {
 				System.out.println("No puedes apostar mas de lo que tienes");
