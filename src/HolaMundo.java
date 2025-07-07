@@ -5,7 +5,7 @@ public class HolaMundo {
 		
 		System.out.println("Hola Getafe");
 		
-		//Comentario de  linea
+		//Comentario de linea
 		
 		/*
 		 * Comentario
