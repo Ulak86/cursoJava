@@ -1,5 +1,7 @@
 package es.cursojava.inicio.strings;
 
+import java.util.Iterator;
+
 public class FuncionesStrings01 {
 
 	public static void main(String[] args) {
@@ -63,7 +65,10 @@ public class FuncionesStrings01 {
 		System.out.println(cadena.substring(5,12));
 		System.out.println(cadena.substring(cadena.lastIndexOf(" ")+1));
 
-
+//		String cadena = "Esto es una prueba de Strings";
+//		Ejercicio dar la posicion del 3er caracter e en la cadena
+		
+		
 	}
 
 }
