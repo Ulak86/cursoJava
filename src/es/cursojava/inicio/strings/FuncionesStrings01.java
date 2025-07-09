@@ -58,17 +58,48 @@ public class FuncionesStrings01 {
 
 		System.out.println("'" + cadena + "'");
 		System.out.println("'" + cadena.strip() + "'");
-		System.out.println("'" + cadena.replace(" ","") + "'");
+		System.out.println("'" + cadena.replace(" ", "") + "'");
 
 		cadena = "Hola Mundo desde Getafe";
 		System.out.println(cadena.substring(5));
-		System.out.println(cadena.substring(5,12));
-		System.out.println(cadena.substring(cadena.lastIndexOf(" ")+1));
+		System.out.println(cadena.substring(5, 12));
+		System.out.println(cadena.substring(cadena.lastIndexOf(" ") + 1));
 
 //		String cadena = "Esto es una prueba de Strings";
 //		Ejercicio dar la posicion del 3er caracter e en la cadena
-		
-		
+
+//		Usando charat
+		cadena = "Esto es una prueba de Strings";
+
+		System.out.println(cadena.indexOf("e"));
+		System.out.println(cadena.lastIndexOf("e"));
+		System.out.println(cadena.length());
+
+		for (int i = 0; i < cadena.length(); i++) {
+			char caracter = cadena.charAt(i);
+//			System.out.println(caracter);
+			if (caracter == 'e' && i != cadena.indexOf("e")) {
+				System.out.println("Posicion " + i);
+				break;
+			}
+
+		}
+
+//		Otro modo usando substrings
+
+		int posicionPrimeraE = cadena.indexOf("e");
+
+		String subcadena = cadena.substring(posicionPrimeraE + 1);
+		System.out.println(subcadena);
+		int posicionSubcadenaSegundaE = subcadena.indexOf("e") + 1;
+
+		System.out.println(posicionPrimeraE + posicionSubcadenaSegundaE);
+
+//		Forma correcta
+
+		System.out.println("La segunda e está en " + cadena.indexOf("e", cadena.indexOf("e") + 1));
+//		int posicion1 = cadena.indexOf("e");
+//		int posicion2 = cadena.indexOf("e", posicion1 + 1);
 	}
 
 }
