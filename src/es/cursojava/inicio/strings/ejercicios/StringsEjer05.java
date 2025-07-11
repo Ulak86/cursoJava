@@ -132,6 +132,7 @@ public class StringsEjer05 {
 			System.out.println();
 			System.out.println("Mail valido");
 		}
+		scan.close();
 	}
 
 }

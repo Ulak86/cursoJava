@@ -5,8 +5,6 @@
 //
 package es.cursojava.inicio.strings.ejercicios;
 
-import java.util.Scanner;
-
 public class StringEjer04 {
 
 	public static void main(String[] args) {
