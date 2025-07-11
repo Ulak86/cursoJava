@@ -11,7 +11,7 @@ public class StringEjer04 {
 
 	public static void main(String[] args) {
 
-		String text = "Enasdadsadsadas d un lugar de La Mancha";
+		String text = "Enasdadsadsadas d un lugarf de La Mancha";
 		String word = "";
 		String maxWord = "";
 
