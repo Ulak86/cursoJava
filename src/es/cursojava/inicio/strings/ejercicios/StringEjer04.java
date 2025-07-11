@@ -1,6 +1,6 @@
 //Ejercicio 4
 //==============================
-//Escribe un programa que reciba un String con varias palabras separadas por espacios y determine cuál es la palabra más larga.
+//Escribe un programa que reciba un String con varias words separadas por espacios y determine cuál es la word más larga.
 
 //
 package es.cursojava.inicio.strings.ejercicios;
@@ -11,77 +11,111 @@ public class StringEjer04 {
 
 	public static void main(String[] args) {
 
-		String texto = "En un lugar de La Mancha";
+		String text = "Enasdadsadsadas un lugar de La Mancha";
+		String word = "";
+		String maxWord = "";
 
-		int longitud = texto.length();
+		text = text.strip();
 
-		int tamaño = 0;
-		int tamañoMax = 0;
-		String palabra = "";
+		text = (" " + text);
 
-//		boolean espacio = false;
+		while (text.length() > 0) {
 
-		for (int i = longitud - 1; i > 0; i--) {
+			int spacePos = text.lastIndexOf(" ");
 
-			if (texto.charAt(i) != ' ') {
+			word = text.substring(spacePos + 1, text.length());
 
-				tamaño++;
-
-			} else if (texto.charAt(i) == ' ') {
-
-				if (tamaño > tamañoMax) {
-					
-					tamañoMax = tamaño;
-					tamaño = 0;
-					
-					palabra = texto.substring(texto.length(),i);
-					
-					if (palabra.length>tamañoMax
-				}
+			if (word.length() > maxWord.length()){
 				
+				maxWord = word;
+				
+				}
+
+			if (maxWord.length() > text.length() - 1) {
+
+				break;
+
+			} else {
+				
+				text = text.substring(0, spacePos);
+
 			}
-
 		}
-	}
-}
 
-//		System.out.println("Escribe una frase y pulsa enter");
-//		Scanner scan = new Scanner(System.in);
-//		String text = scan.nextLine();
+		System.out.println(maxWord);
+	}
+
+}
 //
-//		int contadorA = 0, contadorB = 0, position1 = 0, position2 = 0;
-//////		String palabra = "";
+//		int longitud = text.length();
 //
-//		for (int i = text.length(); i >= 0; i--) {
-//			
-//			if (text.charAt(i-1) != ' ') {
-//				contadorB++;
-//			} else if (text.charAt(i-1) == ' ') {
-//				contadorB = 0;
-//			}
-//			
-//		}
-//		for (int i = text.length(); i > 0; i--) {
-//			if (text.charAt(i - 1) != ' ') {
-//				contadorB++;
-//				if (contadorA < contadorB) {
-//					contadorA = contadorB;
-//					contadorB = 0;
+//		int tamaño = 0;
+//		int tamañoMax = 0;
+//		String word = "";
+//
+////		boolean espacio = false;
+//
+//		for (int i = longitud - 1; i > 0; i--) {
+//
+//			if (text.charAt(i) != ' ') {
+//
+//				tamaño++;
+//
+//			} else if (text.charAt(i) == ' ') {
+//
+//				if (tamaño > tamañoMax) {
+//					
+//					tamañoMax = tamaño;
+//					tamaño = 0;
+//					
+//					word = text.substring(text.length(),i);
+//					
+//					if (word.length>tamañoMax
 //				}
+//				
 //			}
-//		
+//
 //		}
-//		System.out.println("La palabra mas larga tiene " + contadorA + " letras");
-//
-////			("La segunda e está en " + cadena.indexOf("e", cadena.indexOf("e") + 1));
-////		
-////		int position1 = 0, position2 =0;
-////		
-////		position2 = text.indexOf(" ");
-////		
-////		String palabra = (text.substring(position1, position2));
-////		
-////		System.out.println(palabra);
-//
 //	}
 //}
+//
+////		System.out.println("Escribe una frase y pulsa enter");
+////		Scanner scan = new Scanner(System.in);
+////		String text = scan.nextLine();
+////
+////		int contadorA = 0, contadorB = 0, position1 = 0, position2 = 0;
+////////		String word = "";
+////
+////		for (int i = text.length(); i >= 0; i--) {
+////			
+////			if (text.charAt(i-1) != ' ') {
+////				contadorB++;
+////			} else if (text.charAt(i-1) == ' ') {
+////				contadorB = 0;
+////			}
+////			
+////		}
+////		for (int i = text.length(); i > 0; i--) {
+////			if (text.charAt(i - 1) != ' ') {
+////				contadorB++;
+////				if (contadorA < contadorB) {
+////					contadorA = contadorB;
+////					contadorB = 0;
+////				}
+////			}
+////		
+////		}
+////		System.out.println("La word mas larga tiene " + contadorA + " letras");
+////
+//////			("La segunda e está en " + cadena.indexOf("e", cadena.indexOf("e") + 1));
+//////		
+//////		int position1 = 0, position2 =0;
+//////		
+//////		position2 = text.indexOf(" ");
+//////		
+//////		String word = (text.substring(position1, position2));
+//////		
+//////		System.out.println(word);
+////
+////	}
+////}
