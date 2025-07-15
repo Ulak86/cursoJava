@@ -92,7 +92,7 @@ public class EjercicioArrays03 {
 					for (int j = 0; j < aulas[i].length; j++) {
 
 						if (aulas[i][j]!= null && aulas[i][j].contains(alumnoBuscado)) {
-							System.out.println("El alumno buscado se encuentra en el aula " + i + " en el puesto " + j);
+							System.out.println("El alumno buscado se encuentra en el aula " + i+1 + " en el puesto " + j+1);
 							alumnosCoincidentes++;
 							}
 						}
@@ -112,7 +112,7 @@ public class EjercicioArrays03 {
 
 					for (int j = 0; j < aulas[i].length; j++) {
 
-						if (aulas[i][j]!= null && aulas[i][j].contains(alumnoABorrar)) {
+						if (aulas[i][j]!= null && aulas[i][j].equals(alumnoABorrar)) {
 							aulas[i][j] = null;
 							alumnosBorrables++;
 						}
