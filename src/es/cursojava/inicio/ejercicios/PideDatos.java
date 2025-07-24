@@ -6,7 +6,7 @@ public class PideDatos {
 	
 	public static void main (String [] args) {
 		
-		System.out.println("Introduce tus calle");
+		System.out.println("Introduce tu calle");
 		Scanner scan = new Scanner(System.in);
 		String nombreCalle = scan.nextLine();
 		
