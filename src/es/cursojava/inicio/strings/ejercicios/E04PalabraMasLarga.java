@@ -26,7 +26,7 @@ public class E04PalabraMasLarga {
 		System.out.println(larga + larga.length());
 		System.out.println(texto + texto.length());
 		
-		if (larga.length() > texto.length()) {
+		if (larga.length() > texto.length()) { 
 			
 			
 			
