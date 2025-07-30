@@ -4,7 +4,7 @@ public class MiNombre {
 
 	public static void main (String [] args ) {
 		
-		System.out.println("Pablo " );
+		System.out.println("Pabl " );
 		
 		int numero;
 		numero = 39;
