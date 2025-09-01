@@ -26,22 +26,21 @@ public class E4UtilidadesConsola {
 
 	public static void pintaMenu(String[] menuStringArray) {
 
-		for (String linea : menuStringArray) {
-			System.out.println(linea);
-		}
-
-		System.out.println("Select an option");
+		pintaMenu(menuStringArray, "Select an option");
 
 	}
 
 	public static void pintaMenu(String[] menuStringArray, String stringLinea) {
 
-		pintaMenu(menuStringArray);
 		System.out.println(stringLinea);
 
+		for (String linea : menuStringArray) {
+			System.out.println(linea);
+		}
+
 	}
-	
-	public static int pideDatoNumerico (String texto) {
+
+	public static int pideDatoNumerico(String texto) {
 
 		System.out.println(texto);
 		Scanner sc = new Scanner(System.in);
@@ -49,13 +48,13 @@ public class E4UtilidadesConsola {
 		sc.nextLine();
 		return intIntroducido;
 	}
-	
-	public static String pideDatoCadena (String texto) {
+
+	public static String pideDatoCadena(String texto) {
 
 		System.out.println(texto);
 		Scanner sc = new Scanner(System.in);
 		String strIntroducido = sc.nextLine();
 		return strIntroducido;
 	}
-	
+
 }
