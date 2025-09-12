@@ -1,4 +1,4 @@
-package es.cursojava.inicio.oo.ejercicios.E06Biblioteca;
+package es.cursojava.inicio.oo.ejercicios.e06Biblioteca;
 
 public class E09Main {
 	public static void main(String[] args) {
