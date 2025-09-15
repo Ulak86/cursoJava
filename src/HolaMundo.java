@@ -1,9 +1,14 @@
+import org.slf4j.LoggerFactory;
+import org.slf4j.LoggerFactoryFriend;
+
+import ch.qos.logback.classic.Logger;
 
 public class HolaMundo {
 	
+//	private final static Logger log = LoggerFactory.;
+	
 	public static void main (String [] args ) {
 		
-
 		System.out.println("Hola nubdi desde Getafe");
 
 		System.out.println("Hola nubdi desde Getafe Madrid");
@@ -46,5 +51,5 @@ public class HolaMundo {
 		//Lo parentesis mas anidadados son lo primero a ejecutar 
 		
 	}
-
+	
 }
