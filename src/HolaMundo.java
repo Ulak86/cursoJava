@@ -1,11 +1,9 @@
+import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.slf4j.LoggerFactoryFriend;
-
-import ch.qos.logback.classic.Logger;
 
 public class HolaMundo {
 	
-//	private final static Logger log = LoggerFactory.;
+	private final static Logger log = LoggerFactory.getLogger(HolaMundo.class);
 	
 	public static void main (String [] args ) {
 		
@@ -13,6 +11,10 @@ public class HolaMundo {
 
 		System.out.println("Hola nubdi desde Getafe Madrid");
 		
+		log.info("Hola");
+		log.debug("Adios");
+		log.warn("Adios");
+		log.trace("Adios");
 		//Comentario de linea
 
 		System.out.println("Cambio que no existia");
