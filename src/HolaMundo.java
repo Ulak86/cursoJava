@@ -3,7 +3,7 @@ import org.slf4j.LoggerFactory;
 
 public class HolaMundo {
 	
-	private final static Logger log = LoggerFactory.getLogger(HolaMundo.class);
+	private static final Logger log = LoggerFactory.getLogger(HolaMundo.class);
 	
 	public static void main (String [] args ) {
 		
