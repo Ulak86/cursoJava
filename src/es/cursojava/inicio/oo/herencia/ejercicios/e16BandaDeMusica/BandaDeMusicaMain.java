@@ -1,7 +1,12 @@
 package es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class BandaDeMusicaMain {
 
+	private static final Logger log = LoggerFactory.getLogger(Guitarra.class);
+	
 	private Instrumento[] banda = new Instrumento[4];
 
 	public BandaDeMusicaMain() {
@@ -29,12 +34,19 @@ public class BandaDeMusicaMain {
 	}
 
 	void tocarInstrumentos(BandaDeMusicaMain banda) {
+		boolean instrumentoDesafinado = false;
 		for (Instrumento instrumento : this.banda) {
-			if (instrumento.getTipo().equals("Percusion") {
-				instrumento.tocar();
-			} else if (instrumento.getTipo() == "Percusion") {
-				instrumento.aporrear();
+			if (instrumento.getTipo().equals("Percusion")) {
+//				instrumento.aporrear();
+			} else {
+				((Tambor) instrumento).aporrear();
 			}
+			if (!(instrumento.isAfinado())) {
+				instrumentoDesafinado = true; 
+			}
+		}
+		if (instrumentoDesafinado) {
+			log.info("La banda suena mal");
 		}
 	}
 

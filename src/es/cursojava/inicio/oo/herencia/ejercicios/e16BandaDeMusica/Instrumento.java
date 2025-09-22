@@ -40,7 +40,9 @@ public class Instrumento {
 	public String getTipo() {
 		return tipo;
 	}
-	
-	
+
+	public boolean isAfinado() {
+		return afinado;
+	}
 	
 }
