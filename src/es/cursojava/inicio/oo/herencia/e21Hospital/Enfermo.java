@@ -9,6 +9,13 @@ public class Enfermo extends Persona {
 
 	private String enfermedad;
 
+	
+	public Enfermo(String nombre, int edad, String enfermedad) {
+		super(nombre, edad);
+		this.enfermedad = enfermedad;
+	}
+
+
 	@Override
 	public void comer() {
 		log.info("Enfermo {} comiendo en la habitacion", super.getNombre());

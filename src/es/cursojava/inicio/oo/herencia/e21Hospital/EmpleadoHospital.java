@@ -8,6 +8,11 @@ public class EmpleadoHospital extends Persona {
 	private static final Logger log = LoggerFactory.getLogger(Paciente.class);
 
 	private String turno;
+	
+	public EmpleadoHospital(String nombre, int edad, String turno) {
+		super(nombre, edad);
+		this.turno = turno;
+	}
 
 	public void fichar() {
 		log.info("El empleado {} esta fichando", super.getNombre());

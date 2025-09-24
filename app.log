@@ -85,3 +85,62 @@
 17:14:46.109 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - El instrumento esta afinado
 17:14:46.109 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Piano - Afinando piano
 17:14:46.109 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Guitarra - Afinando tambor
+18:32:44.504 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - Instancia de Instrumento creada
+18:32:44.514 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - Instancia de Instrumento creada
+18:32:44.519 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - Instancia de Instrumento creada
+18:32:44.526 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - Instancia de Instrumento creada
+18:32:44.526 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - Instancia de Instrumento creada
+18:32:44.526 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - Instancia de Instrumento creada
+18:32:44.526 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - Instancia de Instrumento creada
+18:32:44.526 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - Instancia de Instrumento creada
+18:32:44.527 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - El instrumento esta afinado
+18:32:44.527 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Guitarra - Afinando guitarra
+18:32:44.527 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - El instrumento esta afinado
+18:32:44.527 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Guitarra - Afinando guitarra
+18:32:44.527 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - El instrumento esta afinado
+18:32:44.527 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Piano - Afinando piano
+18:32:44.527 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Guitarra - Afinando tambor
+18:33:00.872 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - Instancia de Instrumento creada
+18:33:00.874 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - Instancia de Instrumento creada
+18:33:00.874 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - Instancia de Instrumento creada
+18:33:00.875 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - Instancia de Instrumento creada
+18:33:00.875 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - Instancia de Instrumento creada
+18:33:00.875 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - Instancia de Instrumento creada
+18:33:00.875 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - Instancia de Instrumento creada
+18:33:00.875 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - Instancia de Instrumento creada
+18:33:00.875 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - El instrumento esta afinado
+18:33:00.876 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Guitarra - Afinando guitarra
+18:33:00.876 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - El instrumento esta desafinado
+18:33:00.876 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Guitarra - Afinando guitarra
+18:33:00.876 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Instrumento - El instrumento esta desafinado
+18:33:00.876 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Piano - Afinando piano
+18:33:00.876 [main] INFO  es.cursojava.inicio.oo.herencia.ejercicios.e16BandaDeMusica.Guitarra - Afinando tambor
+19:26:42.669 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+19:26:42.673 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+19:26:42.673 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+19:26:42.673 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+19:26:42.674 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+19:26:42.674 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+19:26:42.674 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+19:26:42.674 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente Ana es dado de alta
+19:26:42.674 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente Carlos es dado de alta
+19:26:42.674 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente María es dado de alta
+19:27:00.706 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+19:27:00.710 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+19:27:00.710 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+19:27:00.710 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+19:27:00.710 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+19:27:00.711 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+19:27:00.711 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+19:27:00.711 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente Ana es dado de alta
+19:27:00.711 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente Carlos es dado de alta
+19:27:00.711 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente María es dado de alta
+19:27:03.613 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+19:27:03.618 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+19:27:03.618 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+19:27:03.618 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+19:27:03.618 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+19:27:03.618 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+19:27:03.618 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+19:27:03.619 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente Ana es dado de alta
+19:27:03.626 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente María es dado de alta
