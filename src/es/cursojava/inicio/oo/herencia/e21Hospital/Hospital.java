@@ -60,7 +60,7 @@ public class Hospital {
 
 		for (Habitacion habitacion : habitaciones) {
 			if (habitacion != null) {
-// TODO
+				habitacion.getEnfermo().comer();
 			}
 		}
 

@@ -17,5 +17,9 @@ public class Habitacion {
 		this.enfermo = enfermo;
 	}
 
+	public Enfermo getEnfermo() {
+		return enfermo;
+	}
+
 	
 }
