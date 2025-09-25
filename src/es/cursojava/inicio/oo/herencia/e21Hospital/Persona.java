@@ -21,7 +21,5 @@ public class Persona {
 	public int getEdad() {
 		return edad;
 	}
-	
-	
 
 }

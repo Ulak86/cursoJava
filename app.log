@@ -174,3 +174,188 @@
 19:51:41.583 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
 19:51:41.583 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
 19:51:41.583 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+16:43:11.714 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+16:43:11.718 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+16:43:16.742 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+16:43:16.747 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+16:43:39.349 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+16:43:39.352 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+16:44:20.610 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+16:44:20.614 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+16:46:12.454 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+16:46:12.458 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+16:46:25.731 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+16:46:25.736 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+16:46:55.076 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+16:46:55.080 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+16:48:22.077 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+16:48:22.082 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+16:53:55.783 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+16:53:55.787 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+16:56:06.555 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+16:56:06.560 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+16:59:37.156 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+16:59:37.162 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+17:01:01.738 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+17:01:01.742 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+17:01:01.742 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+17:01:01.742 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+17:01:01.742 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+17:01:01.742 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+17:01:01.742 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+17:01:01.743 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente Carlos es dado de alta
+17:01:01.743 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Enfermo - Enfermo María comiendo en la habitacion
+17:01:01.743 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+17:01:01.743 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+17:01:01.743 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+17:01:01.743 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+17:01:01.743 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+17:01:21.570 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+17:01:21.574 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+17:01:21.574 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+17:01:21.574 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+17:01:21.575 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+17:01:21.575 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+17:01:21.575 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+17:01:21.575 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente Carlos es dado de alta
+17:01:21.575 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente María es dado de alta
+17:01:21.575 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Enfermo - Enfermo Ana comiendo en la habitacion
+17:01:21.575 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+17:01:21.575 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+17:01:21.575 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+17:01:21.575 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+17:01:21.576 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+17:08:35.611 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+17:08:35.614 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+17:08:35.615 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+17:08:35.615 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+17:08:35.615 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+17:08:35.615 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+17:08:35.615 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+17:08:35.615 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente Carlos es dado de alta
+17:08:35.615 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente María es dado de alta
+17:08:35.615 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Enfermo - Enfermo Ana comiendo en la habitacion
+17:08:35.615 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+17:08:35.615 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+17:08:35.617 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+17:08:35.617 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+17:08:35.617 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+17:33:42.047 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+17:33:42.051 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+17:33:42.051 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+17:33:42.051 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+17:33:42.051 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+17:33:42.051 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+17:33:42.051 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+17:33:42.051 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente Ana es dado de alta
+17:33:42.051 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente Carlos es dado de alta
+17:33:42.051 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente María es dado de alta
+17:33:42.051 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+17:33:42.051 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+17:33:42.051 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+17:33:42.051 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+17:33:42.051 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+18:32:02.678 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+18:32:02.682 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+18:32:02.682 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+18:32:02.682 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+18:32:02.682 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+18:32:02.682 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+18:32:02.682 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+18:32:02.683 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente Ana es dado de alta
+18:32:02.683 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente Carlos es dado de alta
+18:32:02.684 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Enfermo - Enfermo María comiendo en la habitacion
+18:32:02.684 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+18:32:02.684 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+18:32:02.684 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+18:32:02.684 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+18:32:02.684 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+18:32:17.111 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+18:32:17.116 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+18:32:17.118 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+18:32:17.118 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+18:32:17.118 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+18:32:17.118 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+18:32:17.118 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+18:32:17.118 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente María es dado de alta
+18:32:17.118 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Enfermo - Enfermo Carlos comiendo en la habitacion
+18:32:17.119 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+18:32:17.119 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+18:32:17.119 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+18:32:17.119 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+18:32:17.119 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+18:32:21.879 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+18:32:21.883 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+18:32:21.883 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+18:32:21.883 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+18:32:21.883 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+18:32:21.883 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+18:32:21.883 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+18:32:21.883 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente Ana es dado de alta
+18:32:21.884 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente María es dado de alta
+18:32:21.884 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Enfermo - Enfermo Carlos comiendo en la habitacion
+18:32:21.884 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+18:32:21.884 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+18:32:21.884 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+18:32:21.884 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+18:32:21.884 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+18:32:23.393 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+18:32:23.397 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+18:32:23.397 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+18:32:23.397 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+18:32:23.397 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+18:32:23.397 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+18:32:23.399 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+18:32:23.399 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente Ana es dado de alta
+18:32:23.399 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente Carlos es dado de alta
+18:32:23.399 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente María es dado de alta
+18:32:23.399 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+18:32:23.399 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+18:32:23.399 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+18:32:23.399 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+18:32:23.399 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+18:32:24.227 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+18:32:24.230 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+18:32:24.230 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+18:32:24.230 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+18:32:24.231 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+18:32:24.231 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+18:32:24.231 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+18:32:24.231 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente Ana es dado de alta
+18:32:24.231 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente Carlos es dado de alta
+18:32:24.231 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente María es dado de alta
+18:32:24.231 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+18:32:24.231 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+18:32:24.231 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+18:32:24.231 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+18:32:24.231 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+18:32:25.182 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+18:32:25.186 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+18:32:25.186 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+18:32:25.186 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+18:32:25.186 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+18:32:25.186 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+18:32:25.186 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+18:32:25.186 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente Ana es dado de alta
+18:32:25.186 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente Carlos es dado de alta
+18:32:25.186 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente María es dado de alta
+18:32:25.186 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+18:32:25.186 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+18:32:25.186 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+18:32:25.186 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+18:32:25.186 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+18:32:26.056 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta fichando
+18:32:26.059 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta fichando
+18:32:26.059 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+18:32:26.059 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+18:32:26.059 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+18:32:26.059 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+18:32:26.059 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+18:32:26.060 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente Ana es dado de alta
+18:32:26.060 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente Carlos es dado de alta
+18:32:26.060 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Doctor - El paciente María es dado de alta
+18:32:26.060 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Ana comiendo en la cafetería
+18:32:26.060 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente Carlos comiendo en la cafetería
+18:32:26.060 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
+18:32:26.060 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
+18:32:26.060 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor

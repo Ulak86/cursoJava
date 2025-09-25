@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 
 public class Hospital {
 
-	private static final Logger log = LoggerFactory.getLogger(Paciente.class);
+	private static final Logger log = LoggerFactory.getLogger(Hospital.class);
 
 	private String nombre;
 	private Habitacion[] habitaciones = new Habitacion[2];
@@ -24,8 +24,8 @@ public class Hospital {
 
 	public static Hospital abrirHospital() {
 
-		Habitacion habitacion1 = new Habitacion(null);
-		Habitacion habitacion2 = new Habitacion(null);
+		Habitacion habitacion1 = new Habitacion();
+		Habitacion habitacion2 = new Habitacion();
 
 		Habitacion[] habitaciones = { habitacion1, habitacion2 };
 
@@ -59,7 +59,7 @@ public class Hospital {
 	public void horaDeComer() {
 
 		for (Habitacion habitacion : habitaciones) {
-			if (habitacion != null) {
+			if (habitacion.getEnfermo() != null) {
 				habitacion.getEnfermo().comer();
 			}
 		}
