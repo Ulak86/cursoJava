@@ -1,7 +1,5 @@
 package es.cursojava.inicio.condicionales;
 
-import java.util.Scanner;
-
 public class CondicionalesSwitch {
 
 	public static void main(String[] args) {

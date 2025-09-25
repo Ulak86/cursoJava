@@ -1,13 +1,20 @@
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class HolaMundo {
 	
+	private static final Logger log = LoggerFactory.getLogger(HolaMundo.class);
+	
 	public static void main (String [] args ) {
 		
-
 		System.out.println("Hola nubdi desde Getafe");
 
 		System.out.println("Hola nubdi desde Getafe Madrid");
 		
+		log.info("Hola");
+		log.debug("Adios");
+		log.warn("Adios");
+		log.trace("Adios");
 		//Comentario de linea
 
 		System.out.println("Cambio que no existia");
@@ -46,5 +53,5 @@ public class HolaMundo {
 		//Lo parentesis mas anidadados son lo primero a ejecutar 
 		
 	}
-
+	
 }
