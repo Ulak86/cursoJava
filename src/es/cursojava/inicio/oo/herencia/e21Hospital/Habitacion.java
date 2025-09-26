@@ -7,10 +7,8 @@ public class Habitacion {
 	private int habitacion;
 	private Enfermo enfermo;
 
-	public Habitacion(Enfermo enfermo) {
-
+	public Habitacion() {
 		this.habitacion = contador++;
-		this.enfermo = enfermo;
 	}
 
 	public void setEnfermo(Enfermo enfermo) {
@@ -21,5 +19,4 @@ public class Habitacion {
 		return enfermo;
 	}
 
-	
 }
