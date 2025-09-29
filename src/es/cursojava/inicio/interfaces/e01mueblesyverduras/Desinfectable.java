@@ -1,6 +1,6 @@
 package es.cursojava.inicio.interfaces.e01mueblesyverduras;
 
-public interface Desinfectable {
+public interface Desinfectable extends Limpiable {
 
 	void desinfectar();
 

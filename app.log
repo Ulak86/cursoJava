@@ -359,3 +359,7 @@
 18:32:26.060 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - Paciente María comiendo en la cafetería
 18:32:26.060 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Laura esta comiendo en el comedor
 18:32:26.060 [main] INFO  es.cursojava.inicio.oo.herencia.e21Hospital.Paciente - El empleado Dr. Gómez esta comiendo en el comedor
+17:31:31.266 [main] INFO  es.cursojava.inicio.interfaces.e01mueblesyverduras.Lechuga - Desinfectando class es.cursojava.inicio.interfaces.e01mueblesyverduras.Lechuga
+17:31:31.269 [main] INFO  es.cursojava.inicio.interfaces.e01mueblesyverduras.JudiasVerdes - Desinfectando class es.cursojava.inicio.interfaces.e01mueblesyverduras.JudiasVerdes
+17:33:33.666 [main] INFO  es.cursojava.inicio.interfaces.e01mueblesyverduras.Lechuga - Desinfectando Lechuga
+17:33:33.670 [main] INFO  es.cursojava.inicio.interfaces.e01mueblesyverduras.JudiasVerdes - Desinfectando JudiasVerdes
