@@ -363,3 +363,79 @@
 17:31:31.269 [main] INFO  es.cursojava.inicio.interfaces.e01mueblesyverduras.JudiasVerdes - Desinfectando class es.cursojava.inicio.interfaces.e01mueblesyverduras.JudiasVerdes
 17:33:33.666 [main] INFO  es.cursojava.inicio.interfaces.e01mueblesyverduras.Lechuga - Desinfectando Lechuga
 17:33:33.670 [main] INFO  es.cursojava.inicio.interfaces.e01mueblesyverduras.JudiasVerdes - Desinfectando JudiasVerdes
+17:57:07.533 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.ProductosElectronicos - Encendiendo Batidora
+17:57:07.536 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.ProductosElectronicos - Apagando Batidora
+17:57:07.536 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.VehiculoMotorizado - Encendiendo Coche
+17:57:07.536 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.VehiculoMotorizado - Apagando Coche
+17:59:05.703 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.ProductosElectronicos - Encendiendo Batidora
+17:59:05.706 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.ProductosElectronicos - Apagando Batidora
+17:59:05.706 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.VehiculoMotorizado - Encendiendo Coche
+17:59:05.706 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.VehiculoMotorizado - Apagando Coche
+18:03:43.177 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.ProductosElectronicos - Encendiendo Batidora
+18:03:43.181 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.ProductosElectronicos - Apagando Batidora
+18:03:43.181 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.VehiculoMotorizado - Encendiendo Coche
+18:03:43.181 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.VehiculoMotorizado - Apagando Coche
+18:21:51.672 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.ProductosElectronicos - Encendiendo Batidora
+18:21:51.675 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.ProductosElectronicos - Apagando Batidora
+18:21:51.675 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.VehiculoMotorizado - Encendiendo Coche
+18:21:51.675 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.VehiculoMotorizado - Apagando Coche
+18:21:51.682 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Batidora - Actualizando con ID 1
+18:21:51.682 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Batidora - Insertando con ID 1
+18:21:51.682 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Batidora - Consultando con ID 1
+18:21:51.682 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Actualizando con ID 2
+18:21:51.682 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Insertando con ID 2
+18:21:51.682 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Consultando con ID 2
+18:21:51.683 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Pan - Consultando por ID 0
+18:21:51.683 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Eliminando con ID 4
+18:22:17.994 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.ProductosElectronicos - Encendiendo Batidora
+18:22:17.997 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.ProductosElectronicos - Apagando Batidora
+18:22:17.997 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.VehiculoMotorizado - Encendiendo Coche
+18:22:17.997 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.VehiculoMotorizado - Apagando Coche
+18:22:17.998 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Batidora - Actualizando con ID 1
+18:22:17.998 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Batidora - Insertando con ID 1
+18:22:17.998 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Batidora - Consultando con ID 1
+18:22:17.998 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Actualizando con ID 2
+18:22:17.998 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Insertando con ID 2
+18:22:17.998 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Consultando con ID 2
+18:22:17.998 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Pan - Consultando por ID 0
+18:22:17.998 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Eliminando con ID 4
+18:23:17.810 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.ProductosElectronicos - Encendiendo Batidora
+18:23:17.814 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.ProductosElectronicos - Apagando Batidora
+18:23:17.814 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.VehiculoMotorizado - Encendiendo Coche
+18:23:17.814 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.VehiculoMotorizado - Apagando Coche
+18:23:17.815 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Batidora - Actualizando con ID 1
+18:23:17.815 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Batidora - Insertando con ID 1
+18:23:17.815 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Batidora - Consultando con ID 1
+18:23:17.815 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Actualizando con ID 2
+18:23:17.815 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Insertando con ID 2
+18:23:17.815 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Consultando con ID 2
+18:23:17.815 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Pan - Consultando por ID 0
+18:23:17.815 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Eliminando con ID 4
+18:23:57.639 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.ProductosElectronicos - Encendiendo Batidora
+18:23:57.642 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.ProductosElectronicos - Apagando Batidora
+18:23:57.642 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.VehiculoMotorizado - Encendiendo Coche
+18:23:57.642 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.VehiculoMotorizado - Apagando Coche
+18:23:57.642 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Batidora - Actualizando con ID 1
+18:23:57.642 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Batidora - Insertando con ID 1
+18:23:57.642 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Batidora - Consultando con ID 1
+18:23:57.642 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Actualizando con ID 2
+18:23:57.642 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Insertando con ID 2
+18:23:57.642 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Consultando con ID 2
+18:23:57.643 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Pan - Consultando por ID 0
+18:23:57.643 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Eliminando con ID 4
+18:23:57.643 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Insertando con ID 4
+18:23:57.643 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Actualizando con ID 4
+18:24:47.045 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.ProductosElectronicos - Encendiendo Batidora
+18:24:47.048 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.ProductosElectronicos - Apagando Batidora
+18:24:47.048 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.VehiculoMotorizado - Encendiendo Coche
+18:24:47.048 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.VehiculoMotorizado - Apagando Coche
+18:24:47.048 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Batidora - Actualizando con ID 1
+18:24:47.048 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Batidora - Insertando con ID 1
+18:24:47.048 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Batidora - Consultando con ID 1
+18:24:47.048 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Actualizando con ID 2
+18:24:47.048 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Insertando con ID 2
+18:24:47.049 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Consultando con ID 2
+18:24:47.049 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Pan - Consultando por ID 3
+18:24:47.049 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Eliminando con ID 4
+18:24:47.049 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Insertando con ID 4
+18:24:47.049 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Actualizando con ID 4

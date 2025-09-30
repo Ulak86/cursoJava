@@ -13,12 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "2025-09-29.md",
+=======
+                "file": "2025-09-30.md",
+>>>>>>> branch 'main' of https://github.com/Ulak86/cursoJava.git
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "2025-09-29"
+=======
+              "title": "2025-09-30"
+>>>>>>> branch 'main' of https://github.com/Ulak86/cursoJava.git
             }
           }
         ]
@@ -142,13 +150,21 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "2025-09-29.md",
+=======
+                "file": "2025-09-30.md",
+>>>>>>> branch 'main' of https://github.com/Ulak86/cursoJava.git
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
+<<<<<<< HEAD
               "title": "Outline of 2025-09-29"
+=======
+              "title": "Outline of 2025-09-30"
+>>>>>>> branch 'main' of https://github.com/Ulak86/cursoJava.git
             }
           }
         ],
@@ -172,6 +188,10 @@
   "active": "5e2638391a0348c2",
   "lastOpenFiles": [
     "Prompt.md",
+<<<<<<< HEAD
+=======
+    "2025-09-30.md",
+>>>>>>> branch 'main' of https://github.com/Ulak86/cursoJava.git
     "Welcome.md",
     "2025-09-29.md",
     "2025-09-25.md",
