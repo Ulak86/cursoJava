@@ -439,3 +439,6 @@
 18:24:47.049 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Eliminando con ID 4
 18:24:47.049 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Insertando con ID 4
 18:24:47.049 [main] INFO  es.cursojava.inicio.interfaces.e02encendiblesyapagables.Coche - Actualizando con ID 4
+18:58:15.708 [main] INFO  es.cursojava.inicio.interfaces.e03metodosdepago.PagoTarjetaCredito - Pago realizado con tarjeta 10.99
+18:58:15.720 [main] INFO  es.cursojava.inicio.interfaces.e03metodosdepago.PagoPayPal - Pago realizado con PayPal 10.99
+18:58:15.720 [main] INFO  es.cursojava.inicio.interfaces.e03metodosdepago.PagoCriptomoneda - Pago realizado con criptomoneda 10.99
