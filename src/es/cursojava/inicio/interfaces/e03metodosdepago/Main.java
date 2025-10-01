@@ -7,7 +7,9 @@ public class Main {
 		Pagos[] pagos = InicializadorApp.inicializar();
 		
 		for (Pagos pago : pagos) {
-			pago.procesarPago(10.99);
+			double monto = 0.10 + (Math.random() * (100.00 - 0.10));
+			monto = Math.floor(monto * 100) / 100.0;
+			pago.procesarPago(monto);
 		}
 
 	}
