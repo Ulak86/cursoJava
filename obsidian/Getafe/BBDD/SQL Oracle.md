@@ -452,3 +452,223 @@ CREATE TABLE empleados (
     CHECK (fecha_fin IS NULL OR fecha_fin > fecha_ini)
 );
 ```
+
+---
+
+## Inserción de datos
+
+### Sintaxis general
+
+```sql
+INSERT INTO nombre_tabla (col1, col2, ...)
+VALUES (valor1, valor2, ...);
+```
+
+- **INSERT INTO** → Palabra reservada que indica la acción de insertar datos en una tabla.
+    
+- **nombre_tabla** → Tabla donde se insertará la fila.
+    
+- **(col1, col2, ...)** → Lista de columnas a las que se asignarán valores.
+    
+- **VALUES (...)** → Lista de valores en el mismo orden que las columnas.
+    
+
+### Variantes
+
+- **Insert con todas las columnas**:
+    
+
+```sql
+INSERT INTO cliente VALUES (1, 'Ana', 'ana@mail.com', SYSDATE, NULL, SYSTIMESTAMP);
+```
+
+- **Insert parcial** (omite columnas con `DEFAULT` o `IDENTITY`):
+    
+
+```sql
+INSERT INTO cliente (nombre, email)
+VALUES ('Luis', 'luis@mail.com');
+```
+
+- **Conversión de cadenas a fecha/hora**:
+    
+
+```sql
+INSERT INTO cliente (fecha_nac)
+VALUES (TO_DATE('1990-05-21','YYYY-MM-DD'));
+
+INSERT INTO cliente (creado_en)
+VALUES (TO_TIMESTAMP('2025-09-30 18:45:12','YYYY-MM-DD HH24:MI:SS'));
+```
+
+### Aplicación en el ejemplo
+
+- Se usan funciones de conversión (`TO_DATE`, `TO_TIMESTAMP`) para garantizar formato.
+    
+- Se insertan valores omitiendo columnas con valores automáticos (`IDENTITY`, `DEFAULT`).
+    
+
+---
+
+## Actualización de datos
+
+### Sintaxis general
+
+```sql
+UPDATE nombre_tabla
+SET col1 = valor1, col2 = valor2, ...
+WHERE condición;
+```
+
+- **UPDATE** → Indica que se van a modificar filas existentes.
+    
+- **SET** → Lista las columnas a modificar con su nuevo valor.
+    
+- **WHERE** → Filtro que define qué filas se actualizan (sin `WHERE` se actualizan todas).
+    
+
+### Ejemplos
+
+- Modificar un campo:
+    
+
+```sql
+UPDATE cliente
+SET email = 'nuevo@mail.com'
+WHERE id = 1;
+```
+
+- Cambiar fechas con `TO_DATE`:
+    
+
+```sql
+UPDATE cliente
+SET fecha_alta = TO_DATE('2025-10-01','YYYY-MM-DD')
+WHERE nombre = 'Luis Gómez';
+```
+
+- Operaciones con fechas:
+    
+
+```sql
+UPDATE cliente
+SET fecha_alta = fecha_alta + 7
+WHERE TRUNC(fecha_alta) = TRUNC(SYSDATE);
+```
+
+- Funciones de fecha:
+    
+
+```sql
+UPDATE cliente
+SET fecha_alta = ADD_MONTHS(fecha_alta,1)
+WHERE nombre = 'Eva Martín';
+```
+
+### Aplicación en el ejemplo
+
+- Se muestran operaciones comunes: actualización de emails, manipulación de fechas con suma de días y funciones como `ADD_MONTHS`.
+    
+
+---
+
+## Eliminación de datos
+
+### Sintaxis general
+
+```sql
+DELETE FROM nombre_tabla
+WHERE condición;
+```
+
+- **DELETE FROM** → Elimina filas de una tabla.
+    
+- **WHERE** → Condición que indica qué filas borrar (si se omite, se borran todas).
+    
+
+### Ejemplos
+
+- Borrar por ID:
+    
+
+```sql
+DELETE FROM cliente WHERE id = 3;
+```
+
+- Borrar por condición de fecha:
+    
+
+```sql
+DELETE FROM cliente
+WHERE fecha_alta < ADD_MONTHS(TRUNC(SYSDATE), -12);
+```
+
+- Borrar con subconsulta:
+    
+
+```sql
+DELETE FROM cliente
+WHERE id IN (
+  SELECT id FROM cliente WHERE email LIKE '%@old-domain.com'
+);
+```
+
+### Aplicación en el ejemplo
+
+- Se muestra cómo eliminar registros concretos o por rangos de fechas.
+    
+- La combinación con subconsultas permite reglas más dinámicas.
+    
+
+---
+
+## Manejo de fechas en DML
+
+- **Conversión explícita** con `TO_DATE` y `TO_TIMESTAMP` para cadenas → evita depender del formato de sesión.
+    
+- **Funciones útiles**:
+    
+    - `SYSDATE` → fecha/hora actual (segundos).
+        
+    - `SYSTIMESTAMP` → fecha/hora actual con milisegundos.
+        
+    - `DATE + N` → suma N días.
+        
+    - `ADD_MONTHS(fecha, n)` → suma meses.
+        
+    - `TRUNC(fecha)` → elimina parte horaria.
+        
+    - `MONTHS_BETWEEN(f1,f2)` → diferencia en meses.
+        
+
+### Ejemplo
+
+```sql
+INSERT INTO cliente (fecha_nac)
+VALUES (TO_DATE('30/09/2025 17:20','DD/MM/YYYY HH24:MI'));
+
+UPDATE cliente
+SET fecha_alta = fecha_alta + 10
+WHERE id = 5;
+```
+
+---
+
+## Transacciones
+
+- **COMMIT** → Confirma los cambios de `INSERT`, `UPDATE`, `DELETE`.
+    
+- **ROLLBACK** → Revierte cambios no confirmados.
+    
+- **SAVEPOINT** → Marca un punto de restauración dentro de una transacción.
+    
+
+### Ejemplo
+
+```sql
+UPDATE cliente SET email = 'temp@mail.com' WHERE id = 1;
+ROLLBACK;  -- revierte el cambio
+
+DELETE FROM cliente WHERE id = 2;
+COMMIT;    -- confirma el borrado
+```
