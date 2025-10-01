@@ -1,4 +1,4 @@
-## Elementos básicos de la sintaxis
+ ## Elementos básicos de la sintaxis
 
 ### Explicación general de los elementos
 
