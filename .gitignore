@@ -1,2 +1,8 @@
 /bin/
 /target/
+
+# ----------------------------------------
+# 🗂️ Ignorar estado del workspace de Obsidian
+# ----------------------------------------
+
+/.obsidian/workspace*.json
