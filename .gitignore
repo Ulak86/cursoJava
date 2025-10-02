@@ -5,4 +5,8 @@
 # 🗂️ Ignorar estado del workspace de Obsidian
 # ----------------------------------------
 
+<<<<<<< HEAD
 /.obsidian/workspace*.json
+=======
+/.obsidian/workspace*.json
+>>>>>>> branch 'main' of https://github.com/Ulak86/cursoJava
