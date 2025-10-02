@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "8e2d9fcc65dddcd5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
+          },
+          {
             "id": "e348798ab30d3435",
             "type": "leaf",
             "state": {
@@ -50,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -171,13 +183,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BBDD/SQL Ejercicios3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SQL Ejercicios3"
+              "title": "Outline"
             }
           }
         ],
@@ -198,7 +209,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "3bdda9022feacd0f",
+  "active": "8e2d9fcc65dddcd5",
   "lastOpenFiles": [
     "BBDD/Enunciado SQL Ejercicios3.md",
     "BBDD/SQL Ejercicios3.md",
