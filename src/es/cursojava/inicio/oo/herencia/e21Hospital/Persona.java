@@ -10,6 +10,10 @@ public class Persona {
 		this.edad = edad;
 	}
 
+	public Persona() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public void comer() {
 
 	}
