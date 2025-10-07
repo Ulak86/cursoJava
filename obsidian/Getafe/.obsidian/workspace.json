@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "2025-10-06.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0202aad806f06c25",
@@ -172,13 +171,13 @@
   },
   "active": "5735d5e30c5c438e",
   "lastOpenFiles": [
+    "Untitled.md",
+    "2025-10-06.md",
     "2025-10-02.md",
     "2025-10-03.md",
-    "2025-10-06.md",
     "2025-10-01.md",
     "BBDD/SQL Oracle.md",
     "Prompt.md",
-    "Untitled.md",
     "Untitled 1.md",
     "Tinta, sangre y sello.md",
     "BBDD/SQL Ejercicios3.md",
