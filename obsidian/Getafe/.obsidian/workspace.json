@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6ad61bbd0558ff73",
+        "id": "c3f48eebbc8b69a9",
         "type": "tabs",
         "children": [
           {
-            "id": "5735d5e30c5c438e",
+            "id": "31574d16e7f66538",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-10-06.md",
-                "mode": "source",
+                "file": "Prompt.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-10-06"
+              "title": "Prompt"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BORRAME.md",
+                "file": "Prompt.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of BORRAME"
+              "title": "Outline of Prompt"
             }
           }
         ],
@@ -169,9 +169,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "f97dd54f6b36036e",
+  "active": "31574d16e7f66538",
   "lastOpenFiles": [
+    "Welcome.md",
     "2025-10-06.md",
+    "Untitled.md",
     "BORRAME.md",
     "2025-10-02.md",
     "2025-10-03.md",
@@ -191,13 +193,11 @@
     "2025-09-29.md",
     "2025-09-23.md",
     "2025-09-25.md",
-    "Welcome.md",
     "2025-09-22.md",
     "2025-09-16.md",
     "2025-09-15.md",
     "2025-09-09.md",
     "2025-09-05.md",
-    "2025-09-04.md",
     "Untitled.base",
     "biba.zip",
     "2025-09-04.zip - Acceso directo.lnk",
