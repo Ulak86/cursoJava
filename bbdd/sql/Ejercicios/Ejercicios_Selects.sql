@@ -1,7 +1,6 @@
 -- ============================================================================
 -- INTRODUCIR DATOS EN LA TABLA
 -- ============================================================================
-
 insert into tb_productos_profe (
    nombre,
    categoria,
@@ -371,14 +370,12 @@ commit;
 -- ============================================================================
 -- 1) Listado básico
 -- Enunciado: Muestra todas las columnas de todos los productos.
-
 select *
   from tb_productos_profe;
 
 -- ============================================================================
 -- 2) Proyección y ordenación
 -- Enunciado: Lista `nombre`, `categoria` y `precio`, ordenado alfabéticamente por `nombre`.
-
 select nombre,
        categoria,
        precio
@@ -388,7 +385,6 @@ select nombre,
 -- ============================================================================
 -- 3) Filtro simple
 -- Enunciado: Muestra los productos de la categoría TECNOLOGIA con `precio` entre 100 y 300 euros.
-
 select *
   from tb_productos_profe
  where categoria = 'TECNOLOGIA'
@@ -397,7 +393,6 @@ select *
 -- ============================================================================
 -- 4) Nulos, defaults y condiciones
 -- Enunciado: Obtén los productos con stock = 0 (rotación nula) y muestra `id`, `nombre`, `estado`.
-
 select id,
        nombre,
        estado
@@ -407,24 +402,22 @@ select id,
 -- ============================================================================
 -- 5) Funciones sobre fechas
 -- Enunciado: Muestra los productos dados de alta en septiembre de 2025.
-
 select *
   from tb_productos_profe
  where fecha_alta >= date '2025-09-01'
    and fecha_alta < date '2025-10-01';
-        
+
 -- ============================================================================
 -- 6) Agregación por categoría
 -- Enunciado: Muestra cuántos productos hay por `categoria`.
-
 select categoria,
        count(categoria) as num_productos
   from tb_productos_profe
  group by categoria;
+
 -- ============================================================================
 -- 7) Métricas de negocio
 -- Enunciado: Para cada `categoria`, calcula precio medio, precio máx y unidades totales en stock.
-
 select categoria,
        round(
           avg(precio),
@@ -438,7 +431,6 @@ select categoria,
 -- ============================================================================
 -- 8) Top-N
 -- Enunciado: Devuelve los 5 productos más caros (id, nombre, categoria, precio).
-
 select id,
        nombre,
        categoria,
@@ -450,7 +442,6 @@ select id,
 -- ============================================================================
 -- 9) Cálculo de PVP con IVA
 -- Enunciado: Muestra `nombre`, `precio` y el PVP (precio con IVA), redondeado a 2 decimales.
-
 select nombre,
        precio,
        round(
@@ -462,7 +453,6 @@ select nombre,
 -- ============================================================================
 -- 10) Búsqueda por texto
 -- Enunciado: Encuentra productos cuyo nombre contenga la palabra “cafe”.
-
 select *
   from tb_productos_profe
  where lower(nombre) like '%cafe%';
@@ -470,7 +460,6 @@ select *
 -- ============================================================================
 -- 11) Media de precio por categoría (solo TECNOLOGIA y HOGAR, activos)
 -- Enunciado: Para las categorías TECNOLOGIA y HOGAR con `estado = 'ACTIVO'`, muestra precio medio y nº de productos. Solo devuelve categorías cuya media sea > 100€. Ordena por media desc.
-
 select categoria,
        round(
           avg(precio),
@@ -486,17 +475,104 @@ select categoria,
 -- ============================================================================
 -- 12) Stock por mes para (ago, sep, oct) 2025 en categorías seleccionadas
 -- Enunciado: Para HOGAR y DEPORTE, en los meses agosto, septiembre, octubre de 2025, agrupa por mes y categoría, muestra stock total. Devuelve solo grupos con stock ≥ 20. Ordena por mes asc, stock desc.
+select categoria,
+       fecha_alta,
+       stock
+  from tb_productos_profe
+ where fecha_alta >= date '2025-08-01'
+   and fecha_alta < date '2025-11-01'
+   and categoria in ( 'HOGAR',
+                      'DEPORTE' )
+ group by categoria,
+          fecha_alta,
+          stock
+having stock >= 20
+ order by fecha_alta asc,
+          stock desc;
+
+-- 12) Stock por mes para (ago, sep, oct) 2025 en categorías seleccionadas
+-- Enunciado: Para HOGAR y DEPORTE, en los meses agosto, septiembre, octubre de 2025,
+-- agrupa por mes y categoría, muestra stock total.
+-- Devuelve solo grupos con stock ≥ 20. Ordena por mes asc, stock desc.
+select categoria,
+       to_char(
+          fecha_alta,
+          'YYYY-MM'
+       ) as mes,
+       sum(stock) as stock_total
+  from tb_productos_profe
+ where fecha_alta >= date '2025-08-01'
+   and fecha_alta < date '2025-11-01'
+   and categoria in ( 'HOGAR',
+                      'DEPORTE' )
+ group by categoria,
+          to_char(
+             fecha_alta,
+             'YYYY-MM'
+          )
+having sum(stock) >= 20
+ order by mes asc,
+          stock_total desc;
 
 -- ============================================================================
 -- 13) IVA y categoría con masa crítica
 -- Enunciado: Considera solo productos con IVA en (21,10) y categoría en (TECNOLOGIA, HOGAR, DEPORTE). Agrupa por IVA y categoría y muestra nº de productos y precio máximo. Devuelve solo grupos con al menos 3 productos. Ordena por IVA asc, nº desc.
+select iva,
+       categoria,
+       count(*) as numero_productos,
+       max(precio) as precio_max
+  from tb_productos_profe
+ where iva in ( 21,
+                10 )
+   and categoria in ( 'TECNOLOGIA',
+                      'HOGAR',
+                      'DEPORTE' )
+ group by iva,
+          categoria
+having count(*) >= 3
+ order by iva asc,
+          numero_productos desc;
 
 -- ============================================================================
 -- 14) Catálogo filtrado por nombres concretos
 -- Enunciado: Toma solo los productos cuyo nombre esté en la lista
 -- `('Auriculares BT','Auriculares gaming','Cafetera espresso','Freidora de aire','Smartwatch')`.
 -- Agrupa por categoría y estado y muestra precio medio y stock total. Devuelve grupos con precio medio > 50. Ordena por precio medio desc.
+select categoria,
+       estado,
+       count(*) as stock_total,
+       round(
+          avg(precio),
+          2
+       ) as precio_medio
+  from tb_productos_profe
+ where nombre in ( 'Auriculares BT',
+                   'Auriculares gaming',
+                   'Cafetera espresso',
+                   'Freidora de aire',
+                   'Smartwatch' )
+ group by categoria,
+          estado
+having avg(precio) > 50
+ order by avg(precio);
 
 -- ============================================================================
 -- 15) Control de “rotación cero” dentro de categorías
 -- Enunciado: Sobre HOGAR y DEPORTE, agrupa por categoría y estado y calcula cuántos tienen stock = 0 y el precio medio. Devuelve solo grupos con al menos 1 producto con stock 0 y precio medio ≥ 20. Ordena por categoría, estado.
+
+SELECT
+    categoria,
+    estado,
+    COUNT(CASE WHEN stock = 0 THEN 1 END) AS productos_sin_stock,
+    ROUND(AVG(precio), 2) AS precio_medio
+FROM
+    tb_productos_profe
+WHERE
+    categoria IN ('HOGAR', 'DEPORTE')
+GROUP BY
+    categoria, estado
+HAVING
+    COUNT(CASE WHEN stock = 0 THEN 1 END) >= 1
+    AND AVG(precio) >= 20
+ORDER BY
+    categoria, estado;
