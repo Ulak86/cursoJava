@@ -1,3 +1,6 @@
+truncate table tb_productos_profe;
+
+
 -- ============================================================================
 -- INTRODUCIR DATOS EN LA TABLA
 -- ============================================================================
@@ -475,18 +478,19 @@ select categoria,
 -- ============================================================================
 -- 12) Stock por mes para (ago, sep, oct) 2025 en categorías seleccionadas
 -- Enunciado: Para HOGAR y DEPORTE, en los meses agosto, septiembre, octubre de 2025, agrupa por mes y categoría, muestra stock total. Devuelve solo grupos con stock ≥ 20. Ordena por mes asc, stock desc.
-select categoria,
-       fecha_alta,
-       stock
+select *
+--- categoria,
+    ---    fecha_alta,
+      ---  stock
   from tb_productos_profe
- where fecha_alta >= date '2025-08-01'
-   and fecha_alta < date '2025-11-01'
+ where fecha_alta >= date '2025-08-01',
+   and fecha_alta < date '2025-11-01',
    and categoria in ( 'HOGAR',
                       'DEPORTE' )
- group by categoria,
-          fecha_alta,
-          stock
-having stock >= 20
+ group by 
+TRUNC(fecha_alta, 'MM');
+ --         stock
+--having stock >= 20
  order by fecha_alta asc,
           stock desc;
 
@@ -538,6 +542,14 @@ having count(*) >= 3
 -- Enunciado: Toma solo los productos cuyo nombre esté en la lista
 -- `('Auriculares BT','Auriculares gaming','Cafetera espresso','Freidora de aire','Smartwatch')`.
 -- Agrupa por categoría y estado y muestra precio medio y stock total. Devuelve grupos con precio medio > 50. Ordena por precio medio desc.
+
+select *
+  from tb_productos_profe
+ where
+-- GROUP BY 
+  having
+-- ORDER BY
+ ;
 select categoria,
        estado,
        count(*) as stock_total,
@@ -559,20 +571,29 @@ having avg(precio) > 50
 -- ============================================================================
 -- 15) Control de “rotación cero” dentro de categorías
 -- Enunciado: Sobre HOGAR y DEPORTE, agrupa por categoría y estado y calcula cuántos tienen stock = 0 y el precio medio. Devuelve solo grupos con al menos 1 producto con stock 0 y precio medio ≥ 20. Ordena por categoría, estado.
-
-SELECT
-    categoria,
-    estado,
-    COUNT(CASE WHEN stock = 0 THEN 1 END) AS productos_sin_stock,
-    ROUND(AVG(precio), 2) AS precio_medio
-FROM
-    tb_productos_profe
-WHERE
-    categoria IN ('HOGAR', 'DEPORTE')
-GROUP BY
-    categoria, estado
-HAVING
-    COUNT(CASE WHEN stock = 0 THEN 1 END) >= 1
-    AND AVG(precio) >= 20
-ORDER BY
-    categoria, estado;
+select categoria,
+       estado,
+       count(
+          case
+             when stock = 0 then
+                1
+          end
+       ) as productos_sin_stock,
+       round(
+          avg(precio),
+          2
+       ) as precio_medio
+  from tb_productos_profe
+ where categoria in ( 'HOGAR',
+                      'DEPORTE' )
+ group by categoria,
+          estado
+having count(
+      case
+         when stock = 0 then
+            1
+      end
+   ) >= 1
+   and avg(precio) >= 20
+ order by categoria,
+          estado;
